@@ -5,6 +5,9 @@ vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 vim.cmd("set number")
+vim.cmd("set wildmenu")
+vim.cmd("set history=200")
+vim.cmd("set wildmode=full")
 vim.g.mapleader= " "
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
