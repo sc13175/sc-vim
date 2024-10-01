@@ -8,6 +8,7 @@ vim.cmd("set number")
 vim.cmd("set wildmenu")
 vim.cmd("set history=200")
 vim.cmd("set wildmode=full")
+vim.cmd("set clipboard+=unnamedplus")
 vim.g.mapleader= " "
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
