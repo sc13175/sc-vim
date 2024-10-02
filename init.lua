@@ -1,11 +1,13 @@
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
+vim.cmd("set tabstop=4")
+vim.cmd("set softtabstop=4")
+vim.cmd("set shiftwidth=4")
 vim.cmd("set relativenumber")
 vim.cmd("set wildmenu")
+vim.cmd("set ncompatible")
+vim.cmd("set modelines=0")
 vim.cmd("set history=200")
 vim.cmd("set wildmode=full")
 vim.cmd("set clipboard+=unnamedplus")
